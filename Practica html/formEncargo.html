@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encargos Don Alfonso</title>
+</head>
+
+<body>
+    <h1>Pedidos Don Alfonso</h1>
+    <hr>
+    <form action="">
+        <h2>Sabor de la masa del bizcocho</h2>
+        <input type="radio" id="masaTradicional" name="masa" value="tradicional">
+        <label for="masaTradicional">Tradicional ($200)</label><br>
+        <input type="radio" id="masaChocolate" name="masa" value="chocolate">
+        <label for="masaChocolate">Chocolate ($250)</label><br>
+
+        <h2>Sabor del pastel</h2>
+        <input type="checkbox" id="saborCaramelo" name="sabor" value="saborCaramelo">
+        <label for="saborCaramelo">Caramelo ($10)</label><br>
+        <input type="checkbox" id="saborChocolate" name="sabor" value="saborChocolate">
+        <label for="saborChocolate">Chocolate ($25)</label><br>
+        <input type="checkbox" id="saborFresa" name="sabor" value="saborFresa">
+        <label for="saborFresa">Fresa ($50)</label><br>
+        <input type="checkbox" id="saborPina" name="sabor" value="saborPina">
+        <label for="saborPina">Piña ($20)</label><br>
+        <input type="checkbox" id="saborNata" name="sabor" value="saborNata">
+        <label for="saborNata">Nata ($15)</label><br>
+
+        <h2>Toppings del pastel</h2>
+        <input type="checkbox" id="topAlmendras" name="topping" value="topAlmendras">
+        <label for="topAlmendras">Almendras ($10)</label><br>
+        <input type="checkbox" id="topFlores" name="topping" value="topFlores">
+        <label for="topFlores">Flores comestibles ($25)</label> <input type="number" id="floresNum" name="floresNum"
+            placeholder="¿Cuántas?" min="0" max="10">
+        <br>
+
+        <h2>Datos del cliente</h2>
+        <label for="NombreCliente">Nombre completo: </label><br>
+        <input type="text" id="NombreCliente" name="NombreCliente"><br><br>
+        <label for="telefono">Teléfono: </label><br>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo">
+        <br><br>
+        <button type="submit">Finalizar pedido</button>
+    </form>
+    <br>
+    <hr>
+    <footer><a href="./portalPasteleria.html">Volver a la página principal</a></footer>
+</body>
+
+</html>
